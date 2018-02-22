@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+    <head>
+
+        <title>Introdução a Javascript</title>
+        <meta charset="UTF-8">
+        <script>
+    	alert("Sejam Bem Vindos!!!");
+    	alert("Boa noite!!!");
+
+    	document.write("Minha aula de JS");
+    	var nome="Thereza\n";
+    	var idade=25;
+    	var end="\u00A0Rua das Flores";
+    	alert(nome);
+    	alert(nome + end);
+    	document.write(nome+idade);
+        </script>
+        
+    <body bgcolor="blue">
+    	
+    </body>
+</html>
