@@ -1,0 +1,41 @@
+<html>
+<head>
+<body bgcolor=#678>
+	<center><h1>Cadastro</h1>
+	<script>
+	now = new Date();
+cont=0;
+
+	document.write ("Hoje :" + now.getDay() + "/"+ now.getMonth() + "/" + now.getFullYear() );
+
+	function nome() {
+
+		 nome1 = prompt("Digite seu nome");
+
+	}
+	function email() {
+
+		 email1 = prompt("Digite seu email");
+
+	}
+	function cas() {
+		cont++;
+
+document.getElementById('text').value+="\na pessoa na posição "+ cont+"\nTem nome " +nome1+"\nemail "+email1+"\n";
+
+	}
+
+
+
+</script>
+
+
+<br>
+<button onclick="nome()" type="button">Digite o nome</button>
+<button onclick="email()" type="button">Digite email</button>
+<button onclick="cas()" type="button">Cadastrar</button>
+<br>
+<textarea id='text' rows="100" cols="100"></textarea>
+</center>
+</body>
+</html>
